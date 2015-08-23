@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ServletNeo</display-name>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>org.neo.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/loginController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>filltask</servlet-name>
+    <servlet-class>org.neo.controller.FillTaskController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>filltask</servlet-name>
+    <url-pattern>/fillTaskController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>fillDetails</servlet-name>
+    <servlet-class>org.neo.controller.FillDetailsServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fillDetails</servlet-name>
+    <url-pattern>/fillTask</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>getTask</servlet-name>
+    <servlet-class>org.neo.controller.GetTaskDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getTask</servlet-name>
+    <url-pattern>/getTask</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
