@@ -26,6 +26,7 @@
     <url-pattern>/fillTask</url-pattern>
   </servlet-mapping>
   
+  
   <servlet>
     <servlet-name>getTask</servlet-name>
     <servlet-class>org.neo.controller.GetTaskDetailsServlet</servlet-class>
@@ -34,6 +35,19 @@
     <servlet-name>getTask</servlet-name>
     <url-pattern>/getTask</url-pattern>
   </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>modifyTask</servlet-name>
+    <servlet-class>org.neo.controller.ModifyProjectDetais</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modifyTask</servlet-name>
+    <url-pattern>/modifyTask</url-pattern>
+  </servlet-mapping>
+  
+  
   <welcome-file-list>
     <welcome-file>login.jsp</welcome-file>
   </welcome-file-list>

@@ -11,7 +11,7 @@
 </head>
 <body>
 
-
+<form action="modifyTask" method="post">
 <%
 
 List<ProjectDetails> lpd =(ArrayList) request.getAttribute("lpd");
@@ -68,8 +68,8 @@ List<ProjectDetails> lpd =(ArrayList) request.getAttribute("lpd");
 		</tr>
 
 		<tr>
-			<td><input type="submit" value="Update" /></td>
-			<td><input type="submit" value="Delete" /></td>
+			<td><input type="submit" name="submit" value="Update" /></td>
+			<td><input type="submit" name="submit" value="Delete" /></td>
 		</tr>
 	</table>
 
@@ -77,7 +77,7 @@ List<ProjectDetails> lpd =(ArrayList) request.getAttribute("lpd");
     
 </c:forEach>
 
-
+</form>
 
 </body>
 </html>

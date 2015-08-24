@@ -45,10 +45,10 @@ public class GetTaskDetailsServlet extends HttpServlet {
          
          pd.setDate("22/23/3434");
          pd.setDescription("Description -1");
-         pd.setFrom("FROM 22/22/2000");
+         pd.setFrom("22/22/2000");
          pd.setProject("JAVA");
          pd.setProjectType("JAVA PROJECT TYPE");
-         pd.setTo("TO 22/22/2012");
+         pd.setTo("22/22/2012");
          lpd.add(pd);
          
          
@@ -56,10 +56,10 @@ public class GetTaskDetailsServlet extends HttpServlet {
          
          pd.setDate("22/23/3434");
          pd.setDescription("Description -2");
-         pd.setFrom("FROM 22/22/2003");
+         pd.setFrom("22/22/2003");
          pd.setProject("DOTNET");
          pd.setProjectType("DOTNET PROJECT TYPE");
-         pd.setTo("TO 22/22/2012");
+         pd.setTo("22/22/2012");
          lpd.add(pd);
          
          
